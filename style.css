@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.column {
+     float: left;
+     width: 33.33%;
+     padding: 20px;
+     height: 100px;
+}
+
+.logo{
+    float: left;
+    justify-content: center;
+    text-align : center;
+    
+}
+
+.menu{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.signup{
+    display: grid;
+    float: right;
+    justify-content: center;
+}
+.signup button{
+    color: white;
+    background-color: yellow;
+    padding: 5px 40px 5px 40px;
+    border-radius: 60px;
+}
+li a:hover{
+    color: tomato;
+}
+
+h3{
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.column2{
+    float: left;
+    width: 50%;
+    padding-bottom:5em;
+}
+
+.column2 .leftdetails{
+    margin-left: 5px;
+}
+
+label{
+    margin-left: 360px;
+    color: black;
+    background-color: white;
+}
+
+label input{
+    color: black;
+    background-color: white;
+    padding: 20px 18px 20px 15px;
+    border-radius: 20px;
+}
+
+.login{
+    margin-left: 360px;
+    color:black;
+    background-color:yellow;
+    padding: 20px 155px 20px 15px;
+    border-radius: 20px;  
+}
+
+.rightdetails h1{
+    display: inline-flex;
+    color:wheat;
+    transform: translateY(100%);
+    position: absolute;
+}
+
+.logingoogle{    
+    background-color: white;
+    color:black;
+    padding: 20px 65px 20px 55px;
+    border-radius: 20px;
+}
+
+
+#google button{
+    float: right;
+    margin-right: 330px;
+    background-image: url(google.jpeg);
+    position: left;
+    background-position: 6px;
+    background-color: white;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    transform: translateX(-5.5em);
+}
+
+.loginfb{
+    float: right; 
+    background-color: white;
+    color:black;
+    padding: 20px 50px 20px 55px;
+    border-radius: 20px;
+    transform: translateX(-5.5em);
+}
+
+#fb button {
+    float: right;
+    margin-right: 330px;  
+    background-image: url(fb.jpeg);
+    position: left;
+    background-position: 6px;
+    background-color: white;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+h4{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+.column3 {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    
+}
+
+footer{
+    color: white;
+    width: 100%;
+}
+
+.leftfooter{
+    float: left;
+}
+.rightfooter{
+    float: right;
+}
+
+
+/*@media only screen and (max-width: 1350px){
+    h1{
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    h2{
+        font-size: 24px;
+        margin-left: 5px;
+    }
+    h3{
+       font-size: 22px;
+       margin-left: 5px;
+    }
+    h4{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    h5{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .menu li a{
+    font-size: 15px;
+    padding-left: 3px;
+    word-spacing: 0.5em;
+    }
+  button,label{
+      font-size: 12px;
+  }
+}*/
